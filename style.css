@@ -1,0 +1,954 @@
+/* 
+Theme Name: Animal Crossing
+Theme URI: www.animalcrossing.cl
+Description: Sitio web sobre el juego Animal Crossing.
+Version: 1.0
+Author: Halimak
+Author URI: http://www.halimak.cl
+*/
+
+
+/*--------------------- header ----------------------*/
+
+.navbar{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,7db9e8+100&0.73+0,0+100 */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0.73) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0.73) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,0.73) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#baffffff', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+.logo a img{
+   text-shadow: 0px 0px 10px black;
+   width: 70px;
+   height: 70px;
+}
+
+.navbar .nav-link{
+    font-size: 19px;
+    font-family: 'Titan One', cursive;
+    font-weight: 400;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: center;
+}
+
+#menu-menu-principal{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 350px !important;
+}
+
+.navbar .nav-item a:active {
+    color: black;
+}
+
+
+
+/*--------------------- inicio ----------------------*/
+
+.mascara-1{
+    background: url('assets/img/fondo-1.1.jpg') 50% 0 no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -100px;
+}
+.fondo-1{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a3a3a3+0,f1e06a+100&0+90,1+99 */
+    background: -moz-linear-gradient(top,  rgba(163,163,163,0) 0%, rgba(233,218,112,0) 90%, rgba(240,223,107,1) 99%, rgba(241,224,106,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(163,163,163,0) 0%,rgba(233,218,112,0) 90%,rgba(240,223,107,1) 99%,rgba(241,224,106,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(163,163,163,0) 0%,rgba(233,218,112,0) 90%,rgba(240,223,107,1) 99%,rgba(241,224,106,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a3a3a3', endColorstr='#f1e06a',GradientType=0 ); /* IE6-9 */
+    padding:470px 0px;
+}
+
+/*--------------------- loop resumen-somos -------------------------*/
+.fondo-2 {
+    background: url('assets/img/patron.png');
+    padding: 200px 0px;
+    border-bottom: 15px dotted white;
+}
+.uno .row{
+    align-items: center;
+    color: white;
+}
+.uno h2{
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 5px black ;
+}
+
+.uno p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.uno button {
+    font-family: 'Anek Latin', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.uno .imagen {
+    text-align: center;
+}
+
+.uno img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border: 20px solid;
+}
+
+.fondo-3 .carrusel {
+    text-align: center;
+}
+
+.fondo-3{
+    background: url('assets/img/fondo-3.jpg') 50% 0 no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+    background-position-x: 1px;
+}
+
+.conoce {
+    padding-top: 80px;
+    padding-bottom: 120px;
+    color: white;
+    font-family: 'Titan One', cursive;
+    font-weight: 600;
+    font-size: 60px;
+    text-shadow: 4px 2px 12px black;
+    letter-spacing: 3px;
+}
+
+
+.fondo-3 .square{
+    justify-content: center;
+    text-align: center;
+}
+
+.fondo-3 .square img{
+ width: 270px;
+ height: 400px;
+ object-fit: fill;
+ text-align: center;
+ margin: auto;
+ margin-bottom: 20px;
+}
+
+.fondo-3 .square h3{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px black;
+    margin-bottom: 1px;
+}
+
+.fondo-3 .square h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #000000;
+    text-shadow: 1px 1px 12px rgb(255, 255, 255);
+    margin-bottom: 9px;
+}
+
+.fondo-3 .square .masinfo{
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #dfa438;
+    border:none;
+    font-weight: 700;
+    box-shadow: 1px 1px 8px black;
+    margin-bottom: 16px;
+    color: #FFFCE2;
+    text-shadow: 1px 1px 1px black ;
+    letter-spacing: 1px;
+    padding-inline: 30px;
+}
+
+.fondo-3 .square a:hover{
+    transform: scale(1.08);
+}
+
+
+.fondo-3 .square .reset{
+    width: 400px !important;
+    height: 400px;
+    object-fit: fill;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-dots {
+    margin: 10px 0px;
+    padding-top: 1px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.owl-dot span{
+    background: rgb(33, 33, 33) !important;
+    border: white 1px solid;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #dfa438 !important;
+}
+
+.subs {
+    background: url('assets/img/subs.png') 50% 0 no-repeat;
+    background-size: 2000px;
+    padding: 30px 0px;
+    border-radius: 20px;
+    margin-top: -20px;
+    box-shadow: 0px 10px 75px black;
+    background-position-y: -250px;
+    background-position-x: -100px;
+    border-bottom: solid #F6950A 10px;
+    margin-bottom: 30px;
+}
+
+.subs:hover{
+    transform: scale(1.01);
+}
+
+.subs .row{
+    align-items: center;
+    justify-content: end;
+}
+
+.subs .mascara-2 {
+    background-color: #ffffff00;
+    padding: 10px 100px;
+    border-radius: 30px;
+    
+}
+
+.mascara-2 h3{
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    letter-spacing: 2px;
+}
+
+.mascara-2 p{
+    color: rgba(0, 0, 0, 0.803);
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 600;
+}
+
+.mascara-2 label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.mascara-2 button {
+    background-color: #f2b409;
+    border: none;
+    font-family: 'Titan One', cursive;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 3px black;
+}
+
+.mascara-2 button:hover{
+    background-color: white;
+    color: #dfa438;
+    text-shadow: none;
+
+}
+
+.co{
+    background: url('assets/img/fondo-1.2.png') no-repeat 0 50%;
+    background-size: cover;
+    padding: 150px 0px;
+    border: 7px solid #5ADBC5;
+}
+
+.co img{
+    width: 200px;
+    border: rgba(0, 0, 0, 0.626) 4px solid;
+    border-radius: 100%;
+}
+
+.blanco {
+    background-color: white;
+    padding: 50px 100px;
+    border: 5px #5ADBC5 solid;
+    border-radius: 20px;
+}
+
+.blanco h4{
+    font-family: 'Titan One', cursive;
+    font-size: 30px;
+}
+
+.blanco p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.botonn {
+    margin-top: 30px;
+}
+
+.others{
+    background: url('assets/img/fondo-1.3.jpg') no-repeat 50% 0 ;
+    background-size: cover;
+    padding: 200px 0px;
+}
+.row {
+    margin:0;
+}
+
+.others img{
+    width: 350px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 30px;
+}
+
+.others h3{
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    color: white;
+    text-shadow: 0px 0px 8px black;
+    font-size: 50px;
+    margin-bottom: 90px;
+}
+
+.others h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.medio {
+    border-left: #F6950A solid 3px;
+}
+
+.dudas h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 0px 0px 6px black;
+}
+
+.dudas a{
+    text-align: center;
+}
+
+/*--------------------- PÁGINA SOMOS -------------------------*/
+.sobreee{
+    background-color: #FFB469;
+    padding: 0;
+}
+
+.fondo-4{
+    background: url('assets/img/fondo-6.jpg') no-repeat 50% 0;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 400px 0px;
+    margin-top: -100px;
+}
+
+.fondo-5 {
+    background: url('assets/img/fondo-5.jpg') no-repeat 50% 0;
+    background-size: cover;
+    box-shadow: 0px 0px 30px black;
+    padding: 150px 0px;
+    background-position-y: -135px;
+    border-bottom: dotted 33px #FFB469;
+}
+
+.fondo-5 .row{
+    margin: 0;
+}
+
+/*  loop video  */
+.video iframe{
+    border: 25px double #3e3312;
+    height: 500px;
+    width: 850px;
+}
+
+/*  loop somos  */
+
+.fondo-6 h3{
+    text-align: center;
+    padding: 100px 0px;
+    font-family: 'Titan One', cursive;
+    font-size: 80px;
+    color: white;
+    text-shadow: 0px 0px 8px black;
+    -webkit-text-stroke: 3px #FCD389;
+}
+.fondo-6 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.848);
+    font-weight: 700;
+    padding: 0px 30px;
+}
+
+.fondo-6 img:hover{
+    transform: scale(1.03);
+}
+
+.fondo-6 {
+    background:url('assets/img/patron-3.png') no-repeat 50% 0;
+    background-size: cover;
+    background-position-x: -2px;
+}
+
+.fondo-6 .row {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.fondo-6 .row img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+}
+
+.fondo-6 .five{
+    margin-bottom: 0;
+    padding-bottom: 100px;
+}
+
+.fondo-6 .five a{
+    background-color: rgb(247, 16, 16);
+}
+
+.hora h2{
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.hora {
+    background:url('assets/img/hora.png') no-repeat 50% 0 ;
+    background-size: cover;
+    padding: 80px 0px;
+    box-shadow: 0px 0px 35px black;
+    text-align: center;
+}
+
+.hora h4{
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    color: #F7950D;
+    -webkit-text-stroke: 1px #FFAE28;
+}
+
+.hora h2{
+    color: white;
+    font-family: 'Titan One', cursive;
+    -webkit-text-stroke: 2px #FFAE28;
+    font-size: 70px;
+}
+
+
+/* ---------------------- INICIO DED RESEÑAS----------------------- */
+
+.comentarios {
+    background: url('assets/img/fondo-7.jpg') no-repeat 50% 0;
+    background-size: cover;
+    padding: 300px 0px;
+    background-position-y: -35px;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.comentarios h3{
+    color: white;
+    font-family: 'Titan One', cursive;
+    -webkit-text-stroke: 5px #13AF5E;
+    font-size: 120px;
+    letter-spacing: 4px;
+}
+
+.nya input{
+    border-radius: 10px !important;
+}
+
+.nya textarea{
+    border-radius: 10px !important;
+    resize: none;
+}
+
+.nya button{
+    background-color: #FFC107 !important;
+    color: white !important;
+    border-radius: 10px !important;
+    text-shadow: 0px 0px 2px black !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.nya button:hover{
+    transform: scale(1.05);
+}
+
+.fondo-7{
+    background: url('assets/img/fondo-8.png') no-repeat 50% 0;
+    background-size: cover ;
+    padding: 200px 0px;
+    border-top: #00A874 dotted 23px;
+}
+
+.fondo-7 h3{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.fondo-7 .row{
+    margin: 0;
+}
+
+
+.fondo-8 .card{
+    background-color: #FADF7D;
+    border: 30px;
+    border: double white 10px;
+    box-shadow: 0px 0px 10px black;
+    width: 18rem;
+}
+.fondo-8 .row{
+    margin: 0;
+}
+
+.fondo-8{
+    background: url('assets/img/fondo-9.png') no-repeat 50% 0;
+    background-size: cover;
+    padding: 100px 0px;
+    background-position-y: -80px;
+}
+
+.fondo-8 .card h5{
+    color: white;
+    text-shadow: 0px 0px 11px black;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 40px;
+}
+
+.fondo-8 .card:hover{
+    transform: scale(1.02);
+}
+
+.fondo-8 .card img{
+    border-radius: 100%;
+}
+
+.fondo-8 .card p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.paginacion {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.paginacion .wp-pagenavi a{
+    border: white solid 2px;
+    color: black !important;
+    background-color: #FADF7D;
+}
+
+.paginacion .wp-pagenavi span{
+    border: white solid 2px;
+    background-color: #FADF7D;
+}
+/* ---------------------- FINAL DE RESEÑAS----------------------- */
+
+/* ---------------------- INICIO DE OTROS----------------------- */
+.rojito{
+    background-color: rgb(255, 0, 0);
+    padding: 0;
+}
+.fondo-10{
+    background: url('assets/img/otros.jpg') no-repeat 0 50%;
+    background-size: cover;
+    padding: 400px 0px;
+    margin-top: -100px;
+    background-attachment: fixed;
+}
+
+.rojo{
+    background:url('assets/img/liston.png') no-repeat 50% 0;
+    background-size: 800px;
+    padding: 80px 0px;
+    margin-top: -100px;
+}
+
+.rojo h3{
+    color: white;
+    font-family: 'League Gothic', sans-serif;
+    letter-spacing: 3px;
+    font-size: 100px;
+    text-shadow: 0px 0px 5px black;
+    font-weight: 500;
+    margin-top: -70px;
+}
+
+.centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centrar img{
+    width: 380px;
+}
+
+.control{
+    padding: 200px 0px 150px;
+    box-shadow: 0px 0px 25px black;
+}
+
+.control .row{
+    margin: 0;
+    justify-content: center;
+}
+
+.control h3{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: 0px 0px 15px black;
+    margin-bottom: 60px;
+}
+
+.control img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.juegos h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.top10{
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    text-shadow: 0px 0px 10px black;
+}
+
+.juegos .row{
+    margin: 0;
+}
+
+.juegos {
+    background: url('assets/img/fondo-nintendo.jpg')50% 0 no-repeat;
+    background-size: cover;
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+    padding: 0px 0px;
+}
+
+.juegos img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 20px;
+}
+
+.juegos .row h3{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.juegos .azul h3:nth-child(even){
+    -webkit-text-stroke: 0.6px #dd2b34;
+}
+
+
+.juegos img:hover{
+    border:solid #ffffff 10px;
+}
+
+.mascara-juegos{
+    background-color: rgba(0, 0, 0, 0.569);
+    padding: 100px 0px;
+    border-bottom: dotted #91D5E2 15px;
+}
+
+.canela {
+    background: url('assets/img/nieve-2.png') no-repeat 50% 0;
+    background-size: cover;
+    padding: 100px 0px;
+    margin-top: -8px;
+}
+
+.conversar{
+    color: black;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.canela h2{
+    color: white;
+    font-family: 'Titan One', cursive;
+    -webkit-text-stroke: 1px black;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.canela p{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.canela .row{
+    margin: 0;
+}
+/* ---------------------- FINAL DE OTROS----------------------- */
+
+/* -------------------- inicio de single page ----------------  */
+
+.single {
+    background: url('assets/img/nintendo.png') 50% 0 no-repeat;
+    background-size: cover;
+    margin-top: -100px;
+    padding: 200px 0px;
+}
+
+.single .row{
+    align-items: center;
+}
+
+.single .oscuridad{
+    background-color: rgba(255, 255, 255, 0.525);
+    padding: 150px 0px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.single h3{
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0px 0px 15px black;
+}
+
+.single img {
+    width: 600px;
+    border-radius: 20px;
+}
+
+
+/* ---------------------- INICIO DE CONTACTO----------------------- */
+
+
+
+.contactooo .row{
+    margin:0px !important;
+}
+.touch{
+    background: url('assets/img/contactanos.jpg') no-repeat 50% 0;
+    background-size: cover;
+    padding: 400px 0px;
+    margin-top: -100px;
+    background-attachment: fixed;
+}
+
+.formulario {
+    background: url('assets/img/fondo-contact.png')no-repeat 50% 0;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.formulario .row{
+    margin: 0;
+}
+
+.formulario h4{
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    padding-inline: 330px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.mapa{
+    background-color: #B7BCC9;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.mapa h3{
+    color: white;
+    font-size: 50px;
+    font-family: 'Titan One', cursive;
+    text-shadow: 0px 0px 8px black;
+    margin-bottom: 80px;
+}
+
+.mapa p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* ---------------------- FINAL DE CONTACTO----------------------- */
+
+/* ---------------------- INICIO DE FOOTER----------------------- */
+
+footer{
+    background: url('assets/img/footer-nuevo.png') no-repeat 50% 0;
+    background-size: cover;
+    padding: 160px 0px;
+    background-position-y: -30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #f6950a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+footer h3{
+    color: #5197E7;
+    text-shadow: 1px 1px 8px white;
+    font-family: 'Titan One', cursive;
+    font-size: 35px;
+}
+
+footer i{
+    font-size: 50px;
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.footer i:hover{
+    transform: scale(1.08);
+}
+
+.face i {
+    color: blue;
+}
+
+.twi i {
+    color: skyblue;
+}
+
+.yutu i {
+    color: red;
+}
+
+.inst i {
+    color: purple;
+}
+
+footer p{
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 15px;
+}
+
+/* -------------- error 404 -------------- */
+
+.canela-error {
+    background: url('assets/img/error.jpg') no-repeat 50% 0;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ups {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.637);
+    padding: 20px;
+    border-radius: 15px;
+    line-height: 1.7;
+}
+
+.ups h2{
+    font-size: 50px;
+    font-family: 'Titan One', cursive;
+    color: white;
+    margin:10px 0px
+}
+
+.ups h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 0px 6px black;
+}
+.btn-error {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    background: #b90ab9;
+    color: #fff;
+    padding: 10px 15px;
+    border: solid black 3px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-error:hover {
+    transform: scale(1.08);
+}
